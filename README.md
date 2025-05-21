@@ -4,13 +4,6 @@ A Flask API that predicts car MPG (Miles Per Gallon) using the MTCars dataset. T
 
 ## Quick Start
 
-### Building for Cloud Platforms
-```bash
-# Build for AMD64 (required for Google Cloud Run)
-docker buildx build --platform linux/amd64 \
-  -t yzong17/mtcars_flask_api \
-  --push .
-```
 
 ### Local Setup
 ```bash
